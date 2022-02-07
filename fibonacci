@@ -55,10 +55,10 @@ def fibo_plot(num):
     x.left(90)
     for i in range(num):
         print(b)
-        dwd = math.pi * b * factor / 2
-        dwd /= 90
+        fdw = math.pi * b * factor / 2
+        fdw /= 90
         for j in range(90):
-            x.forward(dwd)
+            x.forward(fdw)
             x.left(1)
         temp = a
         a = b
